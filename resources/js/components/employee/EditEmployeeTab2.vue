@@ -101,10 +101,7 @@
 
                     <br>
                     <h4>Children's Information</h4>
-                        <div class="pull-right">
-                                <router-link style="margin-top: 30px;" :to="{name: 'editchild',  params: {id: item.id,bio_num: item.family_id }}" class="btn btn-danger" ><i class="fa fa-edit"></i> Edit</router-link>
-                        </div>
-                    <hr>
+                       
 
                         <div class="row" v-for="item in childrenList">
                             <div class="form-group col-md-8">

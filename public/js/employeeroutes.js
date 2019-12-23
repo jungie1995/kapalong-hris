@@ -2753,9 +2753,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -76711,33 +76708,6 @@ var render = function() {
               _c("br"),
               _vm._v(" "),
               _c("h4", [_vm._v("Children's Information")]),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "pull-right" },
-                [
-                  _c(
-                    "router-link",
-                    {
-                      staticClass: "btn btn-danger",
-                      staticStyle: { "margin-top": "30px" },
-                      attrs: {
-                        to: {
-                          name: "editchild",
-                          params: {
-                            id: _vm.item.id,
-                            bio_num: _vm.item.family_id
-                          }
-                        }
-                      }
-                    },
-                    [_c("i", { staticClass: "fa fa-edit" }), _vm._v(" Edit")]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c("hr"),
               _vm._v(" "),
               _vm._l(_vm.childrenList, function(item) {
                 return _c("div", { staticClass: "row" }, [
